@@ -10,6 +10,6 @@ class Solution {
             temp = temp / 2
         }
         
-        return if(a % temp == 0 || temp % a == 0) 1 else 2
+        return if(a % temp == 0) 1 else 2
     }
 }
