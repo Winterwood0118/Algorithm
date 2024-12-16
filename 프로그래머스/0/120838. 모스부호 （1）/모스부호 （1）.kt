@@ -1,7 +1,7 @@
 class Solution {
     fun solution(letter: String): String {
-        return letter.split(" ").map{ mos -> 
-            when(mos){
+        return letter.split(" ").map{ morse -> 
+            when(morse){
                 ".-" -> "a"
                 "-..." -> "b"
                 "-.-." -> "c"
